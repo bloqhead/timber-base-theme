@@ -1,0 +1,10 @@
+{% if items %}
+  <ul class="menu {{ extra_classes }}" id="{{ menu_id }}">
+  {% for item in items %}
+    <li class="{{ item.classes | join(' ') }}{% if item.children %} has-dropdown{% endif %}">
+      <a href="{{ item.link }}">{{ item.title }}</a>
+      {% include "partials/menu.twig" with { 'items': item.children, 'menu_id' : null, 'extra_classes' : 'sub-menu' } %}
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}

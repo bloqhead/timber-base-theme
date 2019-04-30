@@ -1,0 +1,33 @@
+{
+  "name": "kelp",
+  "friendly_name": "Kelp - Wordpress Base Theme",
+  "browsersync_port": 3000,
+  "version": "0.1.0",
+  "description": "Big Sea's base theme, powered by Timber. Configured to always be used in addition to a Child theme.",
+  "main": "Gruntfile.js",
+  "license": "WTFPL",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^9.1.1",
+    "bourbon": "^5.0.0",
+    "bourbon-neat": "latest",
+    "flexbox-grid-mixins": "^0.1.3",
+    "grunt": "latest",
+    "grunt-browser-sync": "latest",
+    "grunt-combine-media-queries": "^1.0.20",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-newer": "latest",
+    "grunt-postcss": "latest",
+    "grunt-sass-globbing": "latest",
+    "pixrem": "latest",
+    "time-grunt": "latest"
+  },
+  "dependencies": {
+    "hamburgers": "^0.9.3"
+  }
+}
